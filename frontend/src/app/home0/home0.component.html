@@ -1,2 +1,15 @@
-<p>home0 works!</p>
-<router-outlet></router-outlet>
+<div class="container-fluid">
+  <div class="header bg-white">
+      <div class="header__left-side">
+              <p class="logo">Contact Book</p>
+              <p class="py-1" routerLink="/home/liste" routerLinkActive="active">list</p>
+              <p class="py-1" routerLink="/home/add" routerLinkActive="active">Add</p>
+      </div>
+      <div class="header__right-side">
+          <p class="btn">Log out</p>
+      </div>
+  </div>
+
+  <h5 class="card-title text-center pb-2 pt-3 my-5">Welcome Nacef Maalaoui !</h5>
+  <router-outlet></router-outlet>
+</div>
